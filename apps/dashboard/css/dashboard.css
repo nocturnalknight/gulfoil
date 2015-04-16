@@ -1,0 +1,83 @@
+#dashboard {
+    margin: 1em;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#container {
+    margin-left: 1em;
+}
+.dataBlock {
+    font-size: 120%;
+    width: 20em;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-bottom: 0.5em;
+}
+#space {
+    width: 30em;
+}
+#users {
+    width: 30em;
+}
+#folders {
+    clear: left;
+}
+.dataBlock p {
+    margin-left: 2em;
+}
+#space p.header {
+    background: url("../img/space.png") no-repeat scroll 5px 12px rgba(0, 0, 0, 0);
+}
+#users p.header {
+    background: url("../img/group.png") no-repeat scroll 5px 12px rgba(0, 0, 0, 0);
+}
+#folders p.header {
+    background: url("../img/folder.png") no-repeat scroll 5px 12px rgba(0, 0, 0, 0);
+}
+#files p.header {
+    background: url("../img/file.png") no-repeat scroll 5px 12px rgba(0, 0, 0, 0);
+}
+#shares p.header {
+    background: url("../img/share.png") no-repeat scroll 5px 12px rgba(0, 0, 0, 0);
+}
+#space.dataBlock p.header, #users.dataBlock p.header, #folders.dataBlock p.header, #files.dataBlock p.header, #shares.dataBlock p.header {
+    font-weight: bold;
+    background-color: #eee;
+    padding: 1em 1em 1em 45px;
+    margin-left:0;
+    margin-bottom: 0.5em;
+}
+.dataBlock p.header span {
+    float: right;
+    font-size: 120%;
+}
+.dataBlock span {
+    display:none;
+}
+.ui-progressbar {
+    position: relative;
+    margin: 10px;
+}
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.history {
+    clear: left;
+}
+
+#footer {
+    clear: both;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 80%;
+}
